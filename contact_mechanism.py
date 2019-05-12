@@ -23,5 +23,7 @@ import phonenumbers
 from phonenumbers.phonemetadata import NumberFormat
 from phonenumbers.data.region_ES import PHONE_METADATA_ES
 
-PHONE_METADATA_ES.number_format.insert(1,
-                NumberFormat(pattern='(9[13])(\\d{3})(\\d{2})(\\d{2})', format='\\1 \\2 \\3 \\4', leading_digits_pattern=['9[13]']))
+PHONE_METADATA_ES.number_format.insert(
+    1,
+    NumberFormat(pattern='(9[13])(\\d{3})(\\d{2})(\\d{2})', format='\\1 \\2 \\3 \\4', leading_digits_pattern=['9[13]']),
+)

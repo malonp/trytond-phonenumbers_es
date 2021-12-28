@@ -20,8 +20,8 @@
 ##############################################################################
 
 import phonenumbers
-from phonenumbers.phonemetadata import NumberFormat
 from phonenumbers.data.region_ES import PHONE_METADATA_ES
+from phonenumbers.phonemetadata import NumberFormat
 
 PHONE_METADATA_ES.number_format.insert(
     1,

@@ -20,6 +20,7 @@
 ##############################################################################
 
 from trytond.pool import Pool
+
 from .contact_mechanism import *
 
 
